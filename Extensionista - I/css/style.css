@@ -1,0 +1,218 @@
+/*Geral*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fafafab6;
+}
+
+h1, h2, h3{
+    color: #333;
+}
+
+p{
+    color: #70747a;
+}
+
+/* Navbar Container */
+header{
+    width: 100%;
+    height: 64px;
+    background-color: #232a31;
+    padding: 0 2rem;
+    border: 2px solid rgb(67, 159, 67);
+}
+
+.navbar{
+    position: relative;
+}
+
+.logo{
+    width: 50px;
+    margin-top: 5px;
+}
+
+.navbar-items{
+    position: absolute;
+    right: 0;
+    height: 80px;
+    line-height: 70px;
+    margin: 0;
+    display: inline-block;
+    margin-right: 40%;
+}
+
+.navbar-items li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+
+.navbar-items a{
+    color: #e6f5de;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.navbar-items a:hover{
+    color: #ccc;
+}
+
+/* Main banner */
+.main-banner{
+    background-image: url(../Imagens/ti\ feliz.png);
+    background-size: cover;
+    background-position: center;
+    padding: 12rem 0;
+    border-bottom: 2px solid rgb(67, 159, 67);
+}
+
+.main-banner h1,
+.main-banner p{
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: #000 3px 2px 3px;
+}
+
+.main-banner h1{
+    font-size: 45px;
+}
+
+.main-banner p{
+    font-size: 25px;
+}
+
+.welcome{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5rem 0 0;
+}
+
+.welcome .hello{
+    margin-bottom: 2.5rem;
+    text-decoration: underline;
+}
+
+/* Tópicos */
+.topics-container{
+    padding: 5rem 0;
+}
+
+.topics-container ul{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.topics-container li{
+    flex: 1 1 200px;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.fas{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.fa-brain{
+    color: #2cc76a;
+}
+
+.fa-apple-alt{
+    color: #FF6347;
+}
+
+.fa-dumbbell{
+    color: #ef8f29;
+}
+
+.fa-laptop-code{
+    color: #4169E1;
+}
+
+.topics-container h3{
+    margin-bottom: 25px;
+}
+
+.topics-container p{
+    line-height: 25px;
+}
+
+/* Página dos conteúdos/temas */
+.tema{
+    width: 85%;
+    margin: 5rem 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.tema p{
+    margin: 1.5rem 0;
+    font-size: 17.3px;
+    line-height: 25px;
+    color: #000;
+    text-align: left;
+}
+
+.tema img{
+    margin: 1.1rem 0;
+    width: 50%;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.intro-tema h1{
+    margin: 0 auto;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+    padding: 0.8rem;
+    font-size: 28px;
+    background-color: #232a31;
+    color: #e6f5de;
+    width: 50%;
+    border: 2px solid rgb(67, 159, 67);
+    border-radius: 5px;
+}
+
+.intro-tema h2{
+    padding: 1rem;
+    font-size: 17.3px;
+    margin-bottom: 1rem;
+    border: 2px dashed rgb(67, 159, 67);
+    font-style: italic;
+}
+
+.topics-training{
+    margin: 3.4rem 0;
+}
+
+.topics-training ul{
+    text-align: left;
+}
+
+.topics-training li{
+    font-size: 17px;
+    line-height: 2rem;
+}
+
+.topics-training h3{
+    font-size: 24px;
+    margin-bottom: 4rem;
+    text-decoration: overline;
+}
+
+.topics-training p{
+    font-weight: bold;
+    font-size: 23px;
+    text-decoration: underline;
+}
